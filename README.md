@@ -9,8 +9,8 @@ BKV Megállókereső Android alkalmazás
 * Widget-en a kedvencek figyelése (indulási idők)
  
 
-![App1](http://hajnaldavid.web.elte.hu/public/assets/bkkk1.jpg "App1")
+![App1](http://hajnaldavid.web.elte.hu/public/assets/b1.jpg "App1")
 
-![App2](http://hajnaldavid.web.elte.hu/public/assets/bkkk2.jpg "App2")
+![App2](http://hajnaldavid.web.elte.hu/public/assets/b2.jpg "App2")
 
-![App3](http://hajnaldavid.web.elte.hu/public/assets/bkkk3.jpg "App3")
+![App3](http://hajnaldavid.web.elte.hu/public/assets/b3.jpg "App3")
