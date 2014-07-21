@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants" >
+
+        <TableRow
+            android:id="@+id/favsMainContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/favsRouteName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:background="@color/stoprow_bg_main"
+                android:gravity="center_horizontal"
+                android:text="4"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <TextView
+                android:id="@+id/favsStopName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:background="@color/stoprow_bg_main"
+                android:gravity="left"
+                android:text="Corvin negyed M"
+                android:textColor="@color/stoprow_txt_main" />
+            <Button
+                android:id="@+id/favsRouteDelete"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_weight=".2"
+                android:background="@color/black"
+                android:textColor="@color/stoprow_bg_main"
+                android:gravity="center"
+                android:text="töröl"
+                />
+		
+        </TableRow>
+        
+        
+        <TableRow
+            android:id="@+id/favsDetailsContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/favsRouteDest"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/stoprow_bg_main"
+                android:gravity="center_horizontal"
+                android:text="Széll Kálmán tér felé"
+                android:textColor="@color/stoprow_txt_main"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                android:typeface="sans" />
+
+         
+        </TableRow>
+        
+    </TableLayout>

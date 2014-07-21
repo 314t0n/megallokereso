@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TableRow
+        android:id="@+id/stopMainContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/stopStopsDir"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@color/bg3"
+            android:contentDescription="@string/main_favs_button_desc"
+            android:paddingLeft="2dp"
+            android:src="@drawable/dir_0_icon" />
+
+        <TextView
+            android:id="@+id/stopName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".7"
+            android:background="@color/bg3"
+            android:gravity="left"
+            android:padding="5dp"
+            android:text="@string/empty"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/stopDist"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight=".3"
+            android:background="@color/stoprow_bg_main"
+            android:gravity="center"
+            android:text="@string/empty"
+            android:textColor="@color/stoprow_txt_main"
+            android:textSize="14sp" />
+
+        <ImageButton
+            android:id="@+id/stopAddFav"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight=".1"
+            android:background="@color/stoprow_bg_main"
+            android:clickable="true"
+            android:contentDescription="@string/main_favs_button_desc"
+            android:gravity="center|bottom"
+            android:src="@drawable/add_fav_icon_off"
+            android:text="@string/favs"
+            android:textColor="@color/stoprow_txt_main" />
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="bgrBlue">#596AEA</color>
+    <color name="textGrey">#F9F9F7</color>    
+    <color name="darkBlue">#3C3F40</color>    
+    <color name="midBlue">#389BA6</color>    
+    <color name="lightBlue">#6CCED9</color>    
+    <color name="midBrown">#D9A13B</color>    
+    <color name="white">#F2F2F2</color>        
+    <color name="bg1">#A1A38B</color>        
+    <color name="bg2">#A2821C</color>        
+    <color name="bg3">#00A2CA</color>        
+    <color name="yellow1">#E0DFD2</color>        
+    <color name="hr1">#A6A896</color> 
+    <color name="hr2">#EEEEEE</color> 
+    <color name="txt1">#DCDCDC</color> 
+    
+    <!-- Stop row colors -->
+    
+    <color name="stoprow_bg_main">#F7F7F9</color>     
+    <color name="stoprow_txt_main">#5B5B5B</color>     
+    <color name="stoprow_bg_routes">#231F20</color>     
+    <color name="stoprow_bg_tram">#F2D452</color>     
+    <color name="stoprow_bg_metro1">#FFDB00</color>     
+    <color name="stoprow_bg_metro2">#CA171D</color>     
+    <color name="stoprow_bg_metro3">#005395</color>     
+    <color name="stoprow_bg_hev5">#8A236C</color>     
+    <color name="stoprow_bg_hev6">#815319</color>     
+    <color name="stoprow_bg_hev7">#F39313</color>     
+    <color name="stoprow_bg_hev8_9">#ED6D6C</color> 
+    <color name="stoprow_bg_bus">#0671AA</color>     
+    <color name="stoprow_bg_ferry">#E70281</color>     
+    <color name="stoprow_bg_funicular">#BA77C4</color>     
+
+</resources>

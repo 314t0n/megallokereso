@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/favWidget"
+    android:layout_width="250dip"
+    android:layout_height="90dp"
+    android:layout_gravity="center"
+    android:background="@drawable/appwidget_bg"
+    android:fadingEdge="horizontal"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/favWidgetDir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/favWidgetStopName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/favWidgetDir"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@+id/favWidgetRouteID"
+        android:layout_toRightOf="@+id/favWidgetDir"
+        android:gravity="right"
+        android:textSize="12sp"
+        android:text="@string/empty" />
+
+    <TextView
+        android:id="@+id/favWidgetRouteID"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="@string/empty" />
+
+    <TextView
+        android:id="@+id/favWidgetRouteDest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/favWidgetStopName"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@+id/favWidgetRouteID"
+        android:text="@string/empty"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/favWidgetRouteTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/favWidgetRouteDest"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@+id/favWidgetRouteID"
+        android:text="@string/empty" />
+
+    <ImageView
+        android:id="@+id/favWidgetStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/widget_off" />
+
+    <ImageView
+        android:id="@+id/favWidgetPrev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/favWidgetPrev"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/favWidgetPrev"
+        android:src="@drawable/widget_prev" />
+
+    <ImageView
+        android:id="@+id/favWidgetNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="false"
+        android:layout_alignTop="@+id/favWidgetPrev"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_toRightOf="@+id/favWidgetPrev"
+        android:src="@drawable/widget_next" />
+
+</RelativeLayout>

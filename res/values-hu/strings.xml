@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BKV Megállók</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="loading">Betöltés folyamatban</string>  
+    <string name="stops_list">Megállók listája</string>
+    <string name="headsign">fele</string>
+    <string name="meter">méter</string>
+    <string name="stops">Megállók a közelben</string>
+    <string name="stops_ver">v1.0</string>
+    <string name="favs">Kedvencek</string>
+    <string name="empty"></string>
+    <string name="back_button">Vissza</string>
+    <string name="hint_stops">Válassz ki egy megállót!</string>
+    <string name="hint_routes">Válassz ki egy járatot!</string>
+    <string name="main_stops_button_desc">Megállók a közelben gomb</string>
+    <string name="main_favs_button_desc">Kedvencek gomb</string>
+    <string name="icon_desc">Ikon</string>
+    <string name="stops_img_desc">design</string>
+    <string name="stops_routes">Járatok</string>
+    <string name="stops_dest">Célállomás</string>
+    <string name="title_activity_fragment">FragmentActivity</string>
+    <string name="favs_empty">Nincsenek kedvencek</string>
+    
+    <string name="routes_tram">Villamos</string>
+    <string name="routes_metro">Metró</string>
+    <string name="routes_rail">Hév</string>
+    <string name="routes_bus">Busz</string>
+    <string name="routes_ferry">Hajó</string>
+    <string name="routes_funicular">Libegő</string>
+    
+    <string name="dialog_yes">Igen</string>
+    <string name="dialog_no">Nem</string>
+    <string name="dialog_saved">Elmentve</string>
+    <string name="dialog_deleted">Törölve</string>
+    <string name="dialog_add_fav">Mentés a kedvencekbe</string>
+    <string name="dialog_del_fav">Törlés a kedvencekből</string>
+    
+
+</resources>

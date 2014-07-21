@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/yellow1"
+        android:orientation="vertical" >
+
+        <TableRow
+            android:id="@+id/favsListMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+            
+             <ImageView
+                android:id="@+id/padding"
+                android:layout_width="2dp"
+                android:layout_height="fill_parent"
+                android:background="@color/white"
+                android:contentDescription="@string/main_stops_button_desc"
+                android:gravity="bottom|center"
+                android:src="@color/bg3" />
+
+            <TextView
+                android:id="@+id/favsListTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".7"
+                android:gravity="left"
+                android:padding="5dp"
+                android:text="@string/favs"
+                android:textColor="@color/stoprow_txt_main"
+                android:typeface="sans" />
+           
+            <ImageView
+                android:id="@+id/favsListBackButton"
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:clickable="true"
+                android:contentDescription="@string/main_stops_button_desc"
+                android:src="@drawable/icon_back" />
+     
+        </TableRow>
+        <TableRow
+            android:id="@+id/designFavStops"
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/designPaddingFavStops"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:clickable="true"
+                android:contentDescription="@string/main_stops_button_desc"
+                android:gravity="bottom|center"
+                android:src="@color/stoprow_txt_main"
+                android:text="@string/stops"
+                android:textColor="@color/stoprow_txt_main" />
+        </TableRow>
+    </TableLayout>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="blocksDescendants"
+        android:text="@string/hello_world" />
+
+</LinearLayout>

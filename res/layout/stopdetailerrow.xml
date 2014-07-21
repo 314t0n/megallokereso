@@ -1,0 +1,113 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/stoprow_bg_main"
+    tools:context=".MainActivity" >
+
+    <!-- -scrollview-t innen kivenni mert az listview-val nem kompatibilis -->
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/routeMainInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/paddingStopRow"
+                android:layout_width="2dp"
+                android:layout_height="fill_parent"
+                android:background="@color/white"
+                android:contentDescription="@string/main_stops_button_desc"
+                android:gravity="bottom|center"
+                android:src="@color/bg3" />
+
+            <TextView
+                android:id="@+id/routeId"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight=".2"
+                android:background="@color/darkBlue"
+                android:gravity="center"
+                android:text="4"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:typeface="monospace" />
+
+            <TableLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".8" >
+
+                <TableRow
+                    android:id="@+id/routeDepartureTimeRow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/routeDepartureTime"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight=".7"
+                        android:gravity="left|top"
+                        android:text="17:15"
+                        android:textColor="@color/stoprow_txt_main"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:id="@+id/wheelchairStopRow"
+                        android:layout_width="18dp"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="@string/main_stops_button_desc"
+                        android:gravity="bottom|center"
+                        android:src="@drawable/wheelchair_icon" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/routeDestinationRow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/routeDestination"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:gravity="left|bottom"
+                        android:text="Széll Kálmán Tér felé"
+                        android:textColor="@color/stoprow_txt_main"
+                        android:textSize="10sp"
+                        android:typeface="sans" />
+                </TableRow>
+            </TableLayout>
+        </TableRow>
+    </TableLayout>
+
+    <!--
+        -<TableRow
+            android:id="@+id/routeRemainingTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+			
+           <TextView
+               android:id="@+id/routeArrival"
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:layout_weight="1"
+               android:background="@color/darkBlue"
+               android:gravity="center"
+               android:text="4 perc múlva"
+               android:textColor="@color/yellow1"
+               android:textSize="14sp" />
+
+        </TableRow>
+    -->
+
+</ScrollView>

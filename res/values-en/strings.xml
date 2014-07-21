@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BKV Stops</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="loading">Loading in progress</string>
+    <string name="stops_list">List of stops</string>
+    <string name="headsign">half</string>
+    <string name="meter">meter</string>
+    <string name="stops">Stops nearby</string>
+
+    <string name="stops_ver">v1.0</string>
+    <string name="favs">Favourites</string>
+
+    <string name="empty"></string>
+    <string name="back_button">Back</string>
+    <string name="hint_stops">Choose a stop!</string>
+    <string name="hint_routes">Choose a route!</string>
+    <string name="main_stops_button_desc">Stops nearby button</string>
+    <string name="main_favs_button_desc">Favourites button</string>
+    <string name="icon_desc">Icon</string>
+
+    <string name="stops_img_desc">design</string>
+    <string name="stops_routes">Routes</string>
+    <string name="stops_dest">Destination</string>
+
+    <string name="title_activity_fragment">FragmentActivity</string>
+    <string name="favs_empty">No favourites</string>
+   
+    <string name="routes_tram">Tram</string>
+    <string name="routes_metro">Metro</string>
+    <string name="routes_rail">Rail</string>
+    <string name="routes_bus">Bus</string>
+    <string name="routes_ferry">Ferry </string>
+    <string name="routes_funicular">Funincular</string>
+   
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">No</string>
+    <string name="dialog_saved">Saved</string>
+    <string name="dialog_deleted">Deleted</string>
+    <string name="dialog_add_fav">Add to favourites</string>
+    <string name="dialog_del_fav">Delete from favourites</string>
+    <string name="dialog_gps_settings">GPS settings</string>
+    <string name="dialog_gps_setup">GPS is not enabled. Do you want to go to settings menu?</string>
+    <string name="error_no_data">Couldn\'t load data</string>
+	<string name="widget_stop">Stopping</string>
+</resources>

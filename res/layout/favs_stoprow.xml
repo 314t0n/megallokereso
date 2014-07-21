@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants" >
+
+        <TableRow
+            android:id="@+id/favsMainContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+            
+          <ImageView
+              android:id="@+id/favStopsDir"
+              android:layout_width="wrap_content"
+              android:layout_height="fill_parent"
+              android:background="@color/bg3"
+              android:contentDescription="@string/main_favs_button_desc"
+              android:paddingLeft="2dp"
+              android:src="@drawable/dir_0_icon" />
+
+          <TextView
+              android:id="@+id/favStopsListTitle"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight=".7"
+              android:background="@color/bg3"
+              android:gravity="left"
+              android:padding="5dp"
+              android:text="@string/empty"
+              android:textColor="@color/white"
+              android:typeface="sans" />
+    
+		<ImageButton
+		    android:id="@+id/favsRouteDelete"
+		    android:layout_width="0dp"
+		    android:layout_height="fill_parent"
+		    android:layout_marginLeft="1dp"
+		    android:layout_weight=".2"
+		    android:background="@color/white"
+		    android:clickable="true"
+		    android:contentDescription="@string/main_favs_button_desc"
+		    android:gravity="center|bottom"
+		    android:src="@drawable/delete_icon"
+		    android:text="@string/favs"
+		    android:textColor="@color/stoprow_txt_main" />
+		
+        </TableRow>
+        
+        
+        <TableRow
+            android:id="@+id/favsDetailsContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/favsRoutes"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/stoprow_bg_main"
+                android:gravity="left"
+                android:padding="3dp"
+                android:text="@string/empty"
+                android:textColor="@color/stoprow_txt_main"
+                android:textSize="12sp"
+                android:textStyle="normal"
+                android:typeface="sans" />
+         
+        </TableRow>
+        
+    </TableLayout>

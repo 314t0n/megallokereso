@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+        <TableRow
+            android:id="@+id/stopMainContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/stopName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".7"
+                android:background="@color/darkBlue"
+                android:gravity="left"
+                android:text="Petőfi híd, budai hídfő"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <TextView
+                android:id="@+id/stopDist"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight=".3"
+                android:background="@color/stoprow_bg_main"
+                android:gravity="center"
+                android:text="201 méter"
+                android:textColor="@color/stoprow_txt_main" />
+		
+        </TableRow>
+        
+         <TableRow
+            android:id="@+id/headsignContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/routeId"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:background="@color/stoprow_bg_tram"
+                android:gravity="center"
+                android:text="4"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+
+             <TextView
+                 android:id="@+id/headsigns"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight=".8"
+                 android:gravity="right"
+                 android:text="Széll Kálmán Tér felé / Boráros tér"
+                 android:background="@color/stoprow_bg_main"
+                 android:textColor="@color/stoprow_txt_main"
+                 android:typeface="sans" />
+
+        </TableRow>
+        
+          <TableRow
+            android:id="@+id/headsignContainer2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/routeId2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:background="@color/stoprow_bg_tram"
+                android:gravity="center"
+                android:text="6"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+
+             <TextView
+                 android:id="@+id/headsigns2"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight=".8"
+                 android:gravity="right"
+                 android:text="Széll Kálmán Tér felé / Boráros tér"
+                 android:background="@color/stoprow_bg_main"
+                 android:textColor="@color/stoprow_txt_main"
+                 android:typeface="sans" />
+
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/routesContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/lightBlue" >
+		
+		
+
+
+        </TableRow>
+       
+        <TableRow
+            android:id="@+id/row"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+          
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="@color/hr2" >
+                 
+             </ImageView>
+        </TableRow>
+        
+    </TableLayout>

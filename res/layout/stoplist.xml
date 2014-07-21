@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+
+        <TableRow
+            android:id="@+id/stopsListMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/txt1"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/padding"
+                android:layout_width="2dp"
+                android:layout_height="fill_parent"
+                android:background="@color/white"
+                android:contentDescription="@string/main_stops_button_desc"
+                android:gravity="bottom|center"
+                android:src="@color/bg3" />
+
+            <TextView
+                android:id="@+id/stopsListTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".7"
+                android:gravity="left"
+                android:padding="5dp"
+                android:text="@string/stops_list"
+                android:textColor="@color/stoprow_txt_main"
+                android:typeface="sans" />
+
+            <ImageView
+                android:id="@+id/stopsListRefreshButton"
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:clickable="true"
+                android:contentDescription="@string/main_stops_button_desc"
+                android:src="@drawable/icon_refresh" />
+
+            <ImageView
+                android:id="@+id/stopsListBackButton"
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:clickable="true"
+                android:contentDescription="@string/main_stops_button_desc"
+                android:src="@drawable/icon_back" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/designRowStops"
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/designPaddingStops1"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:clickable="true"
+                android:contentDescription="@string/main_stops_button_desc"
+                android:gravity="bottom|center"
+                android:src="@color/stoprow_txt_main"
+                android:text="@string/stops"
+                android:textColor="@color/stoprow_txt_main" />
+        </TableRow>
+    </TableLayout>
+
+    <ExpandableListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:descendantFocusability="blocksDescendants"
+        android:groupIndicator="@android:color/transparent" />
+
+</LinearLayout>

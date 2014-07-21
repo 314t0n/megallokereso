@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TableRow
+        android:id="@+id/routeScheduleMainContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/routeScheduleID"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".3"
+            android:background="@color/stoprow_bg_main"
+            android:gravity="center_horizontal"
+            android:text="4"
+            android:textColor="@color/stoprow_txt_main"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/routeScheduleDateTime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".7"
+            android:background="@color/stoprow_bg_main"
+            android:gravity="center"
+            android:text="2013.05.12 21:20:00"
+            android:textColor="@color/stoprow_txt_main" />
+
+        <ImageView
+            android:id="@+id/wheelchairRouteRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/main_stops_button_desc"
+            android:gravity="bottom|center"
+            android:src="@drawable/wheelchair_icon" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/routeScheduleHeadsignContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/routeScheduleHeadsign"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/stoprow_bg_main"
+            android:gravity="right"
+            android:text="Széll Kálmán Tér felé / Boráros tér"
+            android:textColor="@color/stoprow_txt_main"
+            android:typeface="sans" />
+    </TableRow>
+
+</TableLayout>
